@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+citex-otc-admin-pc
+.idea
+.vscode
+*.zip
+*.suo
+*.sln

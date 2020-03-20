@@ -1,0 +1,90 @@
+@import "element-edit";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big,
+cite, code, del, dfn, em, font, img,
+ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+center, u, b, i {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline
+}
+body {
+    line-height: 1
+}
+:focus {
+    outline: 0
+}
+ol, ul {
+    list-style: none
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: ""
+}
+input, textarea {
+    margin: 0;
+    padding: 0
+}
+hr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #000;
+    background-color: #000;
+    height: 1px
+}
+
+.suffix-button{
+    width: 100%;margin-top: 40px;
+    button{
+        font-size: 14px;text-align: center;border-radius:2px;line-height: 45px;
+        border:1px solid #2E6EF6;height: 45px; background-color:#2E6EF6;
+        width: 100%;color: #fff;cursor: pointer;
+    }
+}
+input:-webkit-autofill , textarea:-webkit-autofill, select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+  background-color: transparent;
+  background-image: none;
+  transition: background-color 50000s ease-in-out 0s;
+}
+*::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background-color: #b5b1b1;
+}
+*::-webkit-scrollbar-track {
+  /* //scroll轨道背景 */
+  background-color: #fff;
+}
+*::-webkit-scrollbar-thumb {
+  /* //滚动条中能上下移动的小块 */
+  border-radius: 10px;
+  background-color: #b5b1b1;
+}
+input::-ms-clear,input::-ms-reveal{display:none;}
+*{
+  /*三角箭头的颜色*/
+  scrollbar-arrow-color:transparent;
+  /*滚动条滑块按钮的颜色*/
+  scrollbar-face-color: #b5b1b1;
+  /*滚动条整体颜色*/
+  scrollbar-highlight-color:transparent;
+  /*滚动条阴影*/
+  scrollbar-shadow-color:transparent;
+  /*滚动条轨道颜色*/
+  scrollbar-track-color:transparent;
+}
